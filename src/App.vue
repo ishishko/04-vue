@@ -1,5 +1,7 @@
 <template>
-  <div>
-    <h1 class="text-3xl font-bold underline">Hello world!</h1>
-  </div>
+  <PoquemonGame />
 </template>
+
+<script setup lang="ts">
+import PoquemonGame from '@/modules/pokemon/pages/PoquemonGame.vue';
+</script>
